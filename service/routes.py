@@ -99,7 +99,7 @@ def update_counters(name):
 
 
 ############################################################
-# Delete counters
+# Delete counters.
 ############################################################
 @app.route("/counters/<name>", methods=["DELETE"])
 def delete_counters(name):
