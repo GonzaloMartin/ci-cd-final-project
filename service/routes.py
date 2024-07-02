@@ -98,7 +98,6 @@ def update_counters(name):
     return jsonify(name=name, counter=counter)
 
 
-
 ############################################################
 # Delete counters
 ############################################################
@@ -111,7 +110,6 @@ def delete_counters(name):
         COUNTER.pop(name)
 
     return "", status.HTTP_204_NO_CONTENT
-
 
 
 ############################################################
