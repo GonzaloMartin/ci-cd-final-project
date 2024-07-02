@@ -66,7 +66,6 @@ def create_counters(name):
     )
 
 
-
 ############################################################
 # Read counters
 ############################################################
@@ -80,7 +79,6 @@ def read_counters(name):
 
     counter = COUNTER[name]
     return jsonify(name=name, counter=counter)
-
 
 
 ############################################################
