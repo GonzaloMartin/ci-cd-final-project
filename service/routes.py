@@ -120,6 +120,3 @@ def reset_counters():
     global COUNTER  # pylint: disable=global-statement
     if app.testing:
         COUNTER = {}
-
-
-
